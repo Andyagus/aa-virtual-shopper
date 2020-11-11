@@ -6,9 +6,6 @@ export default class HeelPanel extends React.Component{
     render(){
         return(
         <View style={styles.panel}>
-            <Text style={styles.greeting}>
-                $1,000
-            </Text>
         </View>   
         )
     }

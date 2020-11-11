@@ -7,9 +7,15 @@ import {
 } from 'react-360';
 import Heels from './entities/heels.js'
 import HeelPanel from './HeelPanel'
+
 export default class aa_virtual_shopper extends React.Component {
+  state= {
+    shoe: true
+  }
   render() {
+
     return (
+    <View>
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>
@@ -17,9 +23,14 @@ export default class aa_virtual_shopper extends React.Component {
           </Text>
         </View>
       </View>
+    </View>
     );
   }
+
+  
+
 };
+
 
 const styles = StyleSheet.create({
   panel: {
@@ -32,8 +43,8 @@ const styles = StyleSheet.create({
   },
   greetingBox: {
     padding: 20,
-    backgroundColor: '#000000',
-    borderColor: '#639dda',
+    backgroundColor: 'grey',
+    borderColor: 'white',
     borderWidth: 2,
   },
   greeting: {
@@ -42,5 +53,12 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('aa_virtual_shopper', () => aa_virtual_shopper);
-AppRegistry.registerComponent('Heels', ()  => Heels)
-AppRegistry.registerComponent('HeelPanel', ()  => HeelPanel)
+
+
+if(1+1 == 2){
+  AppRegistry.registerComponent('Heels', ()  => Heels)
+ } else {
+    null
+}
+
+

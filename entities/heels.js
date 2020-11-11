@@ -14,6 +14,7 @@ export default class Heels extends React.Component{
     }
     
     render(){
+        console.log(this.props)
         return(
           <View>  
            <VrButton onClick={() => {this.handleClick()}}>
