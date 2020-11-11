@@ -5,14 +5,15 @@ import {
   Text,
   View,
 } from 'react-360';
-
+import Heels from './entities/heels.js'
+import HeelPanel from './HeelPanel'
 export default class aa_virtual_shopper extends React.Component {
   render() {
     return (
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            Welcome to React 360
+            Heels
           </Text>
         </View>
       </View>
@@ -41,3 +42,5 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('aa_virtual_shopper', () => aa_virtual_shopper);
+AppRegistry.registerComponent('Heels', ()  => Heels)
+AppRegistry.registerComponent('HeelPanel', ()  => HeelPanel)
