@@ -52,12 +52,6 @@ const styles = StyleSheet.create({
 });
 
 AppRegistry.registerComponent('aa_virtual_shopper', () => aa_virtual_shopper);
-
-
-if(1+1 == 2){
-  AppRegistry.registerComponent('Heels', ()  => Heels)
- } else {
-    null
-}
-
+AppRegistry.registerComponent('Heels', ()  => Heels)
+ 
 
