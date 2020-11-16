@@ -26,9 +26,6 @@ export default class aa_virtual_shopper extends React.Component {
     </View>
     );
   }
-
-  
-
 };
 
 
