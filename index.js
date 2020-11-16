@@ -29,6 +29,8 @@ export default class aa_virtual_shopper extends React.Component {
 };
 
 
+
+
 const styles = StyleSheet.create({
   panel: {
     // Fill the entire surface
